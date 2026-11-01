@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav id="nav"></nav>
+  <main class="container">
+    <div class="box">
+      <h2>Customer Profile</h2>
+      <dl>
+        <dt>Name</dt><dd id="show-name"></dd>
+        <dt>Email</dt><dd id="show-email"></dd>
+        <dt>Trade-ins</dt><dd id="show-count"></dd>
+        <dt>Accepted value</dt><dd id="show-total"></dd>
+      </dl>
+      <p id="message" role="status"></p>
+      <button id="clear" class="danger">Clear my trade-in history</button>
+      <button id="out" class="secondary">Log out</button>
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+  <script src="js/profile.js"></script>
+</body>
+</html>
